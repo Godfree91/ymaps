@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&apikey=2c35b6b3-2b7b-4954-b995-0199c755c9e1&suggest_apikey=5f08bd63-aa88-4b64-80a9-a017163f2627"></script>
+    <title>Выбор адреса</title>
+    <script src="map.js"></script>
+    <script>
+        Utils.onDocumentReady(TelegramMap.init);
+    </script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            /* mobile viewport bug fix */
+            min-height: -webkit-fill-available;
+        }
+        html {
+            height: -webkit-fill-available;
+        }
+        #map {
+            min-height: 100%;
+            min-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
