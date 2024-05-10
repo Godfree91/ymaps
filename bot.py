@@ -33,7 +33,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-BOT_TOKEN = "5824079949:AAGDXBuSVXb5YIOydY-WhhBrTU0grBPYEjM"
+BOT_TOKEN = "6171696809:AAHtjyUO9__pEUS_DmC27XiY5C1G-yj5ILw"
 WEBAPP_URL = "https://godfree91.github.io/ymaps/map.html"
 
 
